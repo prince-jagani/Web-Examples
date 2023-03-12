@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="bgimg-1">
+            <div class="caption">
+            <span class="border">SCROLL DOWN</span>
+            </div>
+          </div>
+          
+          <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h3 style="text-align:center;">Parallax Demo</h3>
+            <pre>
+                <h3 style="text-transform: none;">CSS Code to add parallax scrolling to the website:</h3>
+                <code>
+                    .bgimg-1, .bgimg-2, .bgimg-3 {
+                        position: relative;
+                        opacity: 0.65;
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                </code>
+            </pre>
+          </div>
+          
+          <div class="bgimg-2">
+            <div class="caption">
+            <span class="border" style="font-size:25px;color: #f7f7f7;">SECOND IMAGE</span>
+            </div>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <pre>
+                    <h3 style="text-transform: none;color: #fff;">CSS Code to add parallax scrolling to the website:</h3>
+                    <code>
+                        .bgimg-1 {
+                            background-image: url("sample_image_url.jpg");
+                            min-height: 100%;
+                          }
+                          
+                          .bgimg-2 {
+                            background-image: url("sample_image_url.jpg");
+                            min-height: 000px;
+                          }
+                    </code>
+                </pre>   
+            </div>
+          </div>
+          
+          <div class="bgimg-3">
+            <div class="caption">
+            <span class="border" style="font-size:25px;color: #f7f7f7;">THIRD IMAGE</span>
+            </div>
+          </div>
+          
+          <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <pre>
+                    <h3 style="text-transform: none;color: #fff;">CSS Code to add parallax scrolling to the website:</h3>
+                    <code>
+                        .caption {
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            width: 100%;
+                            text-align: center;
+                            color: #000;
+                          }
+                    </code>
+                </pre>
+            </div>
+          </div>
+          
+          <div class="bgimg-1">
+            <div class="caption">
+            <span class="border">LAST FIXED BACKGROUND</span>
+            </div>
+          </div>
+    
+</body>
+</html>
